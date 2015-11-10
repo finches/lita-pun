@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-pun"
-  spec.version       = "0.0.1"
+  spec.version       = "0.0.2"
   spec.authors       = ["Ryan Hammond"]
   spec.email         = ["ryanhammond13@gmail.com"]
   spec.description   = %q{A Lita handler for getting puns.}
@@ -15,6 +15,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "lita", ">= 2.3"
+  spec.add_runtime_dependency "nokogiri", ">= 1.6"
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
