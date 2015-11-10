@@ -5,8 +5,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["ryanhammond13@gmail.com"]
   spec.description   = %q{A Lita handler for getting puns.}
   spec.summary       = %q{A Lita handler for getting puns.}
-  spec.homepage      = ""
-  spec.license       = ""
+  spec.homepage      = "https://github.com/finches/lita-pun"
+  spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
   spec.files         = `git ls-files`.split($/)
